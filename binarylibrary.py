@@ -57,10 +57,7 @@ def searchbook(book):
     except EOFError:
         o.close()
     return z
-                    
-'''a=int(input("How many Data You Wanna Enter : "))
-for i in range(a):
-    createfile()'''
+    
 rea=input("Want to display the content of file (Y/N) ")
 if rea.lower() in 'y'or'yes':
     read()   
@@ -68,5 +65,5 @@ q=input("Which Author's book you want to search: ")
 if True:
     print(countrec(q))
 x=input("Which Book Price You Wanna Search: ")
-if x==True:
+if True:
     print(searchbook(x))                
